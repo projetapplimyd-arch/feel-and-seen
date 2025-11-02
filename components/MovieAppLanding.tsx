@@ -1,6 +1,6 @@
 import { Film, Users, Sparkles, Zap, Play, Star, Check, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
-import logo from '../public/feelandseen_logo_v2.png';
+import logo from '../public/SeenAndFeel_logo_v2.png';
 import gifdemo from '../public/seenandfeel.gif';
 
 
@@ -87,7 +87,7 @@ export default function MovieAppLandingWithAssets() {
                 className="object-contain"
               />
             </div>
-            <span className="font-bold text-gray-900">FeelAndSeen</span>
+            <span className="font-bold text-gray-900">SeenAndFeel</span>
           </div>
               
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-7 tracking-tight text-gray-900">
@@ -234,7 +234,7 @@ export default function MovieAppLandingWithAssets() {
             </div>
 
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 text-center relative z-10">
-              Pourquoi FeelAndSeen ?
+              Pourquoi SeenAndFeel ?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto relative z-10">
               {benefits.map((benefit, index) => (
@@ -333,7 +333,7 @@ export default function MovieAppLandingWithAssets() {
                 className="object-contain"
               />
             </div>
-            <span className="font-bold text-gray-900">FeelAndSeen</span>
+            <span className="font-bold text-gray-900">SeenAndFeel</span>
           </div>
           <p className="text-sm text-gray-600 mb-4">
             Le film parfait pour tout le groupe, à chaque fois.
