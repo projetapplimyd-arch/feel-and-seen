@@ -1,6 +1,6 @@
 import { Film, Users, Sparkles, Zap, Play, Star, Check, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
-import logo from '../public/SeenAndFeel_logo_v2.png';
+import logo from '../public/seenandfeel_logo_v2.png';
 import gifdemo from '../public/seenandfeel.gif';
 
 
