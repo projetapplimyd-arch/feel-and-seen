@@ -2,6 +2,7 @@ import { Film, Users, Sparkles, Zap, Play, Star, Check, ArrowRight } from 'lucid
 import Image from 'next/image';
 import logo from '../public/seenandfeel_logo_v2.png';
 import gifdemo from '../public/seenandfeel.gif';
+import Link from 'next/link';
 
 
 export default function MovieAppLandingWithAssets() {
@@ -165,7 +166,7 @@ export default function MovieAppLandingWithAssets() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-xl">❌</span>
-                  <span className="text-gray-800">Personne n'est satisfait</span>
+                  <span className="text-gray-800">Personne n&apos;est satisfait</span>
                 </li>
               </ul>
             </div>
@@ -308,7 +309,7 @@ export default function MovieAppLandingWithAssets() {
             </h2>
             
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Rejoignez des milliers d'utilisateurs qui ont déjà dit adieu aux disputes de groupe.
+              Rejoignez des milliers d&apos;utilisateurs qui ont déjà dit adieu aux disputes de groupe.
             </p>
             
             <button className="group px-8 py-4 bg-white text-black rounded-full font-semibold text-lg hover:scale-105 hover:shadow-xl transition-all inline-flex items-center gap-2">
@@ -320,8 +321,8 @@ export default function MovieAppLandingWithAssets() {
 
       </div>
 
-      {/* Footer with Logo */}
-      <footer className="border-t-2 border-gray-200 py-10 bg-gray-50">
+       {/* Footer */}
+      <footer className="border-t-2 border-gray-200 py-10 bg-gray-50 mt-20">
         <div className="max-w-6xl mx-auto px-5 text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
             <div className="relative w-6 h-6">
@@ -339,11 +340,11 @@ export default function MovieAppLandingWithAssets() {
             Le film parfait pour tout le groupe, à chaque fois.
           </p>
           <div className="flex gap-6 justify-center text-sm text-gray-600">
-            <a href="#" className="hover:text-gray-900">Confidentialité</a>
+            <Link href="/confidentialite" className="hover:text-gray-900">Confidentialité</Link>
             <span>•</span>
-            <a href="#" className="hover:text-gray-900">Conditions</a>
+            <Link href="/cgu" className="hover:text-gray-900">Conditions</Link>
             <span>•</span>
-            <a href="#" className="hover:text-gray-900">Contact</a>
+            <Link href="/mentions-legales" className="hover:text-gray-900 font-semibold">Mentions légales</Link>
           </div>
         </div>
       </footer>
